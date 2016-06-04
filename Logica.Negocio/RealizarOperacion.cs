@@ -8,7 +8,7 @@ namespace Logica.Negocio
 {
     public class RealizarOperacion
     {
-        double Calcular(double operandoUno, double operandoDos,
+       public  double Calcular(double operandoUno, double operandoDos,
                         string operador)
         {
             double elResultado = 0.0;
