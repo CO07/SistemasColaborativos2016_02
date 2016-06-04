@@ -40,11 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Log.cs" />
+    <Compile Include="Sen.cs" />
     <Compile Include="Division.cs" />
     <Compile Include="RealizarOperacion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Multiplicacion.cs" />
     <Compile Include="Resta.cs" />
+    <Compile Include="Potencia.cs" />
+    <Compile Include="Cos.cs" />
     <Compile Include="Suma.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
